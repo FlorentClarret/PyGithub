@@ -117,7 +117,7 @@ class Github(object):
         :param verify: boolean or string
         :param retry: int or urllib3.util.retry.Retry object
         """
-
+        print("hey")
         assert login_or_token is None or isinstance(login_or_token, str), login_or_token
         assert password is None or isinstance(password, str), password
         assert jwt is None or isinstance(jwt, str), jwt
